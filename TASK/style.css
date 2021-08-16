@@ -1,0 +1,289 @@
+.a{
+}
+dl, ol, ul {
+     margin-top: 0;
+    margin-bottom: 1rem;
+}
+header{
+width: 100%;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+color: #ffff;
+border-bottom: 1px solid #F3F3F3;
+;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 100px;
+}
+.logoimage{
+width: 291px;
+height: 50px;
+}
+.search{
+    position: relative;
+   width: 10px;
+    height: 10px;
+}
+
+.logo input:hover, .logo input{
+    border: none;
+}
+form input{
+ height: 50px;
+width: 430px;
+background-color: #F3F3F3;
+font-family: 'Museo Sans Cyrl ';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+text-align: left;
+opacity: 50%;
+margin-left: 100px;
+}
+form .search{
+    position: relative;
+    margin-left: -30px;
+    height: 23px;
+    width: 23px;
+    float: center;
+
+}
+.container1{
+    width: 100%;
+    height: 50px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    padding-right: 70px;
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 15px;
+
+}
+#menu li a{
+    padding-right: 20px;
+font-family: 'Museo Sans Cyrl';
+font-size: 18px;
+line-height: 22px;
+color: black;
+}
+#menu li a:hover{
+    text-decoration: none;
+}
+#new, #new2:hover{
+    display: block;
+    position: relative;
+    margin-top: -15px;
+    width: 90px;
+    height: 53px;
+    background-color:#323232;
+    text-align: center;
+    float: center;
+    padding-right:0px;
+    margin-right: 10px;
+}
+#new:hover{
+    opacity: 0.8;
+}
+#new span, #new2 span:hover{
+    display: block;
+    position: relative;
+    text-align: center;
+    color: white!important;
+    margin-top: 17%;
+}
+
+#new2:hover{
+    background: #E69A37;
+    margin-right: 0px;
+}
+#menu li:hover a{
+color:#E69A37;
+}
+.carousel-indicators li{
+    width: 15px!important;
+    height: 15px!important;
+    background: rgba(255, 255, 255, 0.1)!important;
+    border: 1px solid #f7f7f7!important;
+    box-sizing: border-box!important;
+
+
+}
+
+
+.carousel-indicators li:hover{
+    background-color: white!important;
+}
+.carousel-indicators .active{
+   
+    background-color: #E69A37!important;
+    border-color: #E69A37!important;
+}
+#btntop{
+    background-color: #E69A37;
+
+    border: none;
+width: 228px;
+height: 38px;
+font-family: 'Museo Sans Cyrl';
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.2em;
+text-align: left;
+color: white;
+text-transform: uppercase;
+
+}
+.container2{
+    width: 100%!important;
+}
+.container2 img{
+    width: 100%;
+height: 500px;}
+.h1{
+    font-family: 'Museo Sans Cyrl';
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: 68px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.textbutton{
+    margin-top: 90px;
+    margin-left: 200px;
+    position: absolute;
+    z-index: 5355;
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+.textbutton p{
+    font-family: 'Museo Sans Cyrl';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: none!important;
+}
+
+.container3{
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    border-bottom: 1px solid #F3F3F3;
+
+}
+.grid_block{
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 30px;
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+}
+.grid_block .item {
+    padding-right: 15px;
+}
+.grid_block p:hover{
+    text-decoration: underline}
+.container4{
+    height: 40px;
+}
+
+
+
+@media(max-width: 1150px){
+	#menu li a {
+font-size: 16px;
+padding-right: 10px	}
+    }
+
+    @media(min-width: 950px){
+        #menu li a {
+        width: 96px;}
+        }
+
+        @media(min-width: 750px){
+            #menu  {
+                padding-right:0px;
+                    padding-left:20%}
+               }
+
+               @media (max-width: 750px) and (min-width: 370px) {
+                .container2 {
+                }
+                .logo form input{
+                    width: 200px;
+                }
+                .logo{
+                    margin-left: 0px;
+                }
+                .logoimage {
+                    width: 200px;
+                    margin-left: 0px;
+                }
+                #menu{
+                    padding-left: 20px;
+                    height: 60px;
+                    padding-right: 0px;
+                }
+                #menu li{
+                    font-size: 10px;
+                    width: 78px;
+                }
+                .textbutton{
+                    margin-left: 100px;
+                }
+                .textbutton p{
+                    font-size: 16px;
+                }
+                .textbutton h1{
+                    font-size: 30px;
+                }
+                #btntop{
+                    width: 205px;
+                }
+    }
+                }
+
+
+
+
+
+
+
+
+                
+
+
+
+
+@font-face {
+    font-family: "MuseoSans"; 
+    src: url("./fonts/MuseoSans\ Cyrl/") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
